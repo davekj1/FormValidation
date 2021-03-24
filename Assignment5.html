@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title></title>
+</head>
+<body>
+<div id="side">
+<div id="image">
+<img src="rocket.jpg">
+<p id="write">You'r just 30 seconds away from earning your own money!</p>
+</div>
+<button style="position:relative;width:100px;left:127px;padding:5px;top:80px;background-color:white;">Login</button>
+</div>
+
+<div id="top">
+<div id="container"> 
+<br>
+<p></p>
+<div style="position: relative;top:-10px;">
+<p><h3>&emsp;&emsp;&emsp;&emsp;&emsp;Apply as an employee</h3></p>
+</div>
+<span>
+<input type="text" class="abc" placeholder="Enter the name" id="name">
+<p style="color:red;font-size:0.7em;" id="name1"><br></p></span>
+<span>
+<input type="text" class="abc" placeholder="Enter the last name"  id="lastName">
+<p style="color:red;font-size: 0.7em;"id="name2"><br></p>
+</span>
+<span>
+<input type="password"class="abc" placeholder="Enter the password(at least length 8 and must contain  characters,digits and special symbols" id="password">
+<p style="color:red;font-size: 0.7em;"id="password1"><br></p>
+</span>
+<span>
+<input type="password" placeholder="Confirm the password" id="password2">
+<p style="color: red;font-size: 0.7em;"id="password3"><br></p>
+</span>
+<span>
+<input type="text" class="abc" placeholder="Enter E-mail address" id="email">
+<p style="color: red;font-size: 0.7em;"id="email1"><br></p>
+</span>
+<span>
+<input type="text" class="abc" placeholder="Enter phone number" id="phone">
+<p style="color:red;font-size: 0.7em;"id="phone1"><br></p>
+</span>
+<span>
+<select id="cardtype" class="abc" style="width:80%;padding-top:2.5px;padding-bottom: 2.5px; " name="cards">
+    <option value="selectcard">Please select your question</option>
+    <option value="mastercard">What is your favourite book?</option>
+    <option value="maestro">What is your favourite color?</option>
+    <option value="solo">What is your favourite day?</option>
+    <option value="visaelectron">What is your favourite car</option>
+    <option value="visadebit">What is your favourite book?</option>
+    <option>What primary school did you attend?</option>
+</select>
+<p style="color: red;font-size: 0.7em;" class="abc" id="cardtype1"><br></p>
+</span>
+<span>
+<input type="text" placeholder="Answer your security question" id="answer">
+<p style="color:red;font-size: 0.7em;" class="abc" id="answer1"><br></p>
+</span>
+
+<input type="submit" value="Register" style="position: relative;top:240px;left: -260px;" onclick="name_check()">
+</div>
+</div>
+<div id="circle">
+	<BR>
+</div>
+<script src="helper.js"></script>
+</body>
+</html
